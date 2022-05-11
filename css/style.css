@@ -130,17 +130,13 @@ img {
 
  @media screen and (max-width:768px) {
 
-    body {
-        max-width: 768px;
-       }
-
        .container{
         max-width: 768px;
        }
 
        .row{
            padding-left: 15px;
-           padding-right: 60px;
+           padding-right: 80px;
        }
 
       .col{
@@ -149,7 +145,46 @@ img {
 
     }
 
+ @media screen and (max-width:480px) {
+
+    .container{
+        max-width: 480px;
+        padding: 0;
+       }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+    .lessons .col {
+        width: 80%;
+      }
+
+      .steps .col{
+          width: 100%;
+          padding: 20px 20px;
+      }
+
+      .card{
+          padding: 20px 20px;
+      }
+
+      .why-us {
+          background-color: rgb(39, 39, 39);
+      }
+
  }
+
+    
+
+    
+
+
 
      
      
